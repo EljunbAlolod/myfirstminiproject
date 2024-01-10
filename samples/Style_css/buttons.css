@@ -1,0 +1,96 @@
+  .subcribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;    
+    transition: background-color 0.15s;
+   }
+    .subcribe-button:hover{
+    background-color: red;
+   }
+   .subcribe-button:hover:active{
+    opacity: 0.5;
+   }
+  
+  .join-button{
+    background-color: white;
+    color: rgb(2, 158, 255);
+    border-color: rgb(2, 158, 255);
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 1s,
+     color 1s;
+   }
+   .join-button:hover{
+    background-color: rgb(2, 158, 255);
+    color: white;
+   }
+   .join-button:active{
+   opacity: 0.8;
+   }
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  }
+  .unique-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.unique-button:hover {
+  background-color: #2980b9;
+}
+.unique-button:hover:active{
+  opacity: 0.5;
+}
+.thumb{
+  height: 20px;
+  width: 20px;
+  
+}
+.thumb-button{
+  border: 1px;
+  height: 56px;
+  width: 56px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 28px;
+}
+.thumb-button:hover{
+  background-color: rgb(95,95,95);
+}
+.thumb-button:hover:active{
+  background-color: rgb(192, 192, 192);
+}
